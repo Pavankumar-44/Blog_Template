@@ -1,0 +1,91 @@
+@media (min-width:320px) and (max-width:480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width:100vh;
+    }
+    #container{
+        /* width:100vh; */
+        height: 50px;
+        align-items: center;
+    }
+    .marvel{
+        height: 40px;
+        position: relative;
+        top: 5px;
+    }
+    input{
+        position: relative;
+        top: -9px;
+        left: 60px;
+        width: 500px;
+        height: 20px;
+    }
+    .iron{
+        width: fit-content;
+        margin-left: 50%;
+        /* width: 800px; */
+    }
+    .it img{
+        margin: 10px;
+        margin-top: 20px;
+        height: 500px;
+        width: 450px;
+    }
+    p{
+    position: relative;
+    top: -5px;
+    font-size: 30px;
+    }
+    .dia{
+        position: relative;
+        top: -2px;
+        font-size: 4px;
+    }
+    .it img:hover{
+        position: relative;
+        top: -10px;
+        padding: 30px;
+    }
+    .vil{
+        width: 570px;
+    }
+    .villion{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    
+    .it1 img{
+        margin: 10px;
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+    }
+    .it1 img:hover{
+        border-radius: none;
+        position: relative;
+        top: -10px;
+        padding: 5px;
+    }
+    .para{
+        color: black;
+        position: relative;
+        top: -5px;
+        font-size: 5px;
+        }
+        span{
+            position: relative;
+            left: 170px;
+            top: 25px;
+            color: aliceblue;
+            font-size: 20px;
+            font-family: sans-serif;
+            
+        }
+    
+
+    
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#container{
+    width: 100%;
+    
+    background-color:rgb(230, 0, 0);
+    height: 80px;
+    z-index: 1;
+}
+.marvel{
+    height: 80px;
+}
+.iron{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
+    
+}
+input{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: -35px;
+    left: 140px;
+}
+.it img{
+    /* padding: 37px; */
+    margin: 35px;
+    height: 300px;
+    width: 200px;
+    box-shadow: 0px 1px 12px 3px white;
+
+}
+p{ 
+    color: white;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.dia{
+    position: relative;
+    top: -15px;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace; 
+    color: red;
+    font:status-bar;
+}
+.it p:hover{
+    color: red;
+}
+.it img:hover{
+    position: relative;
+    top: -10px;
+    padding: 15px;
+    /* height: 318px; */
+    border-radius:0;
+    transform: scale(0.95);
+}
+img:hover{
+    transition: 0.5s;
+    border-radius: 5%;
+}
+.vil{
+    justify-content: center;
+    margin-top: 70px;
+    background-color: black;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.it1 img{
+    position: relative;
+    margin: 35px;
+    height: 300px;
+    width: 200px;
+    box-shadow: 0px 0px 6px 3px rgb(193, 49, 49);
+}
+.it1 img:hover{
+    position: relative;
+    top: -10px;
+    padding: 15px;
+    
+}
+
+.villion{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ede6e6;
+    height:fit-content;
+    width: 95%;
+    position: relative;
+    margin: 30px;
+
+}
+.para{
+    color: black;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    }
+footer{
+    background-color: red;
+    height: 70px;
+    width: 100%;
+}
+span{
+    position: relative;
+    left: 570px;
+    top: 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
